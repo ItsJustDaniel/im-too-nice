@@ -1,7 +1,6 @@
 {
-
-  "NODE_ENV":"development",
   "name": "react-flask-app",
+"homepage": "https://tomerpacific.github.io/starter-project/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,7 +14,11 @@
     "web-vitals": "^1.1.1"
   },
   "scripts": {
+
     "start": "react-scripts start",
+
+   "predeploy": "npm run build", 
+    "deploy": "gh-pages -d build",
     "start-api": "cd api && venv/bin/flask run --no-debugger",
     "build": "react-scripts build",
     "test": "react-scripts test",
