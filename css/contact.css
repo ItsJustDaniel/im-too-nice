@@ -1,0 +1,11 @@
+.wrapper {
+  overflow-y: scroll;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.padding {
+  padding-top: 100px;
+}
+/*# sourceMappingURL=contact.css.map */

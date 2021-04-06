@@ -1,0 +1,130 @@
+%message-shared {
+  height: 100vh;
+  scroll-snap-align: start;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+body {
+  overflow-y: hidden;
+}
+.divcontainer {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  display: block;
+  height: 100vh;
+}
+
+.image1 {
+  @extend %message-shared;
+  background-image: url("../images/Sorra.jpg");
+}
+.image2 {
+  @extend %message-shared;
+  background-image: url("../images/Slegumes.jpg");
+}
+.image3 {
+  @extend %message-shared;
+  background-image: url("../images/Soranges.jpg");
+}
+.image4 {
+  @extend %message-shared;
+  background-image: url("../images/$vaches.jpg");
+}
+
+.image5 {
+  @extend %message-shared;
+  background-image: url("../images/Sfam.jpg");
+}
+.myimage {
+  position: relative;
+  top: 350px;
+  width: 50px;
+  height: 50px;
+  // animation
+  animation-name: myanimation;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes myanimation {
+  50% {
+    top: 300px;
+  }
+  100% {
+    top: 350px;
+  }
+}
+#here {
+  height: 100vh;
+  scroll-snap-align: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#colors {
+  background-color: green;
+}
+.image1text {
+  position: relative;
+  top: 500px;
+}
+#position {
+  position: relative;
+  top: 540px;
+  padding-bottom: 90px;
+}
+.csscard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+.csscard:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.csscardimage {
+  width: 100px;
+}
+#csstitle {
+  padding: 2px 16px;
+}
+#ho {
+  width: 200px;
+  border-color: #0275d8;
+}
+#io {
+  position: relative;
+  right: 500px;
+  width: 200px;
+  border-color: #0275d8;
+}
+#h {
+  width: 200px;
+  height: 200px;
+  border-color: #0275d8;
+}
+#csscolor {
+  border-color: red;
+}
+/*
+.test {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding-bottom: 50px;
+  display: block;
+  width: 100%;
+  background: #4caf50;
+}
+*/
+//<center>
+//         <img src={Myimage} className="myimage" />
+//      </center>
+//  <div className="here">
+//    <div className="card border border-info">
+//      <img src={Myimage2} class="card-img-top" alt="..."></img>
+//      <div className="card-body">
+//        <h1 className="card-title">here</h1>
+//        <p className="card-body">
+//          Eu ea culpa ad ex do consectetur fugiat fugiat voluptate non ut
+//          ad.
+//        </p>
+//      </div>
+//    </div>

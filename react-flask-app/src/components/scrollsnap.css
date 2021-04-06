@@ -1,5 +1,0 @@
-/* backround image like tesla.com */
-html {
-  background: url("../images/scrollsnapping1.jpg") no-repeat center fixed;
-  background-size: cover;
-}

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,iGAAiG;AACjG,AAAA,aAAa,CAAC;EACZ,KAAK,EAAE,IAAI;EACX,SAAS,EAAE,IAAI;CAOhB;;AATD,AAGE,aAHW,CAGX,GAAG,CAAC;EACF,MAAM,EAAE,IAAI;EACZ,4CAA4C;EAC5C,KAAK,EAAE,IAAI;EACX,YAAY,EAAE,GAAG;CAClB",
+    "sources": [
+        "../react-flask-app/src/components/logo.scss"
+    ],
+    "names": [],
+    "file": "logo.css"
+}

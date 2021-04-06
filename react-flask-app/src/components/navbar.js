@@ -1,15 +1,15 @@
 import React from "react";
 import Mycopag from "../images/copag.png";
-import Mycss from "./logo.css";
+import Mycss from "./logo.scss";
 import Mysearch from "../images/search.svg";
 const navbar = () => {
   return (
     <div>
       {/*nav then ul then li then a */}
       {/* start of the navbar */}
-      <nav className="navbar navbar-expand navbar-dark bg-primary">
+      <nav className="navbar navbar-expand navbar-dark bg-primary fixed-top">
         {/* navbar brand*/}
-        <a className="navbar-brand" href="#">
+        <a className="navbar-brand" href="/">
           <img src={Mycopag} />
         </a>
         {/* start of the navbar items */}
@@ -153,7 +153,9 @@ const navbar = () => {
 
             <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
               <li>
-                <a className="dropdown-item">Contactez-nous</a>
+                <a className="dropdown-item" href="/contact">
+                  Contactez-nous{" "}
+                </a>
               </li>
               <li>
                 <a className="dropdown-item">Espace recruitment & stage </a>
@@ -188,6 +190,9 @@ const navbar = () => {
             </ul>
           </li>
         </ul>
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        &nbsp; &nbsp;
         <form className="d-flex">
           <input
             className="form-control me-2"

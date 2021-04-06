@@ -1,0 +1,147 @@
+.image1, .image2, .image3, .image4, .image5 {
+  height: 100vh;
+  scroll-snap-align: start;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+body {
+  overflow-y: hidden;
+}
+
+.divcontainer {
+  -ms-scroll-snap-type: y mandatory;
+      scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  display: block;
+  height: 100vh;
+}
+
+.image1 {
+  background-image: url("../images/Sorra.jpg");
+}
+
+.image2 {
+  background-image: url("../images/Slegumes.jpg");
+}
+
+.image3 {
+  background-image: url("../images/Soranges.jpg");
+}
+
+.image4 {
+  background-image: url("../images/$vaches.jpg");
+}
+
+.image5 {
+  background-image: url("../images/Sfam.jpg");
+}
+
+.myimage {
+  position: relative;
+  top: 350px;
+  width: 50px;
+  height: 50px;
+  -webkit-animation-name: myanimation;
+          animation-name: myanimation;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes myanimation {
+  50% {
+    top: 300px;
+  }
+  100% {
+    top: 350px;
+  }
+}
+
+@keyframes myanimation {
+  50% {
+    top: 300px;
+  }
+  100% {
+    top: 350px;
+  }
+}
+
+#here {
+  height: 100vh;
+  scroll-snap-align: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#colors {
+  background-color: green;
+}
+
+.image1text {
+  position: relative;
+  top: 500px;
+}
+
+#position {
+  position: relative;
+  top: 540px;
+  padding-bottom: 90px;
+}
+
+.csscard {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.csscard:hover {
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.csscardimage {
+  width: 100px;
+}
+
+#csstitle {
+  padding: 2px 16px;
+}
+
+#ho {
+  width: 200px;
+  border-color: #0275d8;
+}
+
+#io {
+  position: relative;
+  right: 500px;
+  width: 200px;
+  border-color: #0275d8;
+}
+
+#h {
+  width: 200px;
+  height: 200px;
+  border-color: #0275d8;
+}
+
+#csscolor {
+  border-color: red;
+}
+
+/*
+.test {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding-bottom: 50px;
+  display: block;
+  width: 100%;
+  background: #4caf50;
+}
+*/
+/*# sourceMappingURL=scrollsnap.css.map */

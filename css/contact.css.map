@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,QAAQ,CAAC;EACP,UAAU,EAAE,MAAM;EAClB,QAAQ,EAAE,QAAQ;EAClB,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;CACd;;AACD,AAAA,QAAQ,CAAC;EACP,WAAW,EAAE,KAAK;CACnB",
+    "sources": [
+        "../react-flask-app/src/components/contact.scss"
+    ],
+    "names": [],
+    "file": "contact.css"
+}

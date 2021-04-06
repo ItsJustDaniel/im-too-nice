@@ -1,12 +1,13 @@
 /* https://stackoverflow.com/questions/52247860/bootstrap-navbar-image-size-is-too-big/52247956*/
-/* the css was taken from there */
 .navbar-brand {
   width: 50px;
   font-size: 24px;
 }
+
 .navbar-brand img {
   height: 50px;
   /* put value of image height as your need */
   float: left;
   margin-right: 7px;
 }
+/*# sourceMappingURL=logo.css.map */

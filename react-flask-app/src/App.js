@@ -1,19 +1,29 @@
 import React from "react";
 import Mynavbar from "./components/navbar.js";
 import Myimage from "./components/scrollsnaps.js";
+import Mycontact from "./components/contact.js";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 const App = () => {
-  //useEffect(() => {
-  //  fetch("/time")
-  //    .then((res) => res.json())
-  //    .then((data) => {
-  //      setCurrentTime(data.time);
-  //    });
-  //}, []);
   return (
-    <div>
-      <Mynavbar />
-      <Myimage />
-    </div>
+    <Router>
+      <div>
+        <Switch>
+          <Route exact path="/">
+            <Mynavbar />
+          </Route>
+        </Switch>
+        <Switch>
+          <Route exact path="/">
+            <Myimage />
+          </Route>
+        </Switch>
+        <Switch>
+          <Route exact path="/contact">
+            <Mycontact />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
   );
 };
 
